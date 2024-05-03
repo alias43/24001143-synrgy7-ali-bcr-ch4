@@ -1,0 +1,71 @@
+body {
+    font-family: "Helvetica";
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 3.375rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+}
+
+p,li{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+
+#hero {
+    background-color: #F1F3FF;
+}
+
+#hero img {
+    margin-right: -20px;
+}
+
+.list-group > li {
+    margin-left: -15px;
+}
+
+.list-group > li::before {
+    content: url(https://firebasestorage.googleapis.com/v0/b/absensi-fr.appspot.com/o/bcr-assets%2Flist-style.svg?alt=media&token=3c4eb79e-4acb-45b7-a3f0-7e66db47d4d5);
+    height: 24px;
+    margin-right: 5px;
+}
+
+.card-body > i {
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 6px 9px;
+    color: white;
+}
+
+#cta-banner .banner {
+    background-color: #0D28A6;
+    color: white;
+}
+
+.footer-nav p {
+    font-weight: 500;
+}
+
+.footer-sosmed i {
+    font-size: 20px;
+    padding: 4px 8px;
+    border-radius: 50%;
+    color: white;
+    background-color: #0D28A6;
+
+}

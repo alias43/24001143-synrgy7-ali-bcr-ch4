@@ -8,5 +8,8 @@
   "private": false,
   "scripts": {
     "start": "node server/index.js"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
   }
 }
